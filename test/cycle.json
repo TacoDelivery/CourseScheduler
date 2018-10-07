@@ -1,0 +1,16 @@
+[
+  {
+    "name" : "Intro",
+    "prerequisites" : []
+  },
+  {
+    "name" : "Course 1",
+    "prerequisites" : ["Course 2"]
+  },
+
+  {
+    "name" : "Course 2",
+    "prerequisites" : ["Course 1"]
+  }
+
+]

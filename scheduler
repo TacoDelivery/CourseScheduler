@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+javac -cp json-20180130.jar CourseScheduler/Course.java CourseScheduler/CourseScheduler.java
+java -cp .:json-20180130.jar CourseScheduler.CourseScheduler "$@"
+
